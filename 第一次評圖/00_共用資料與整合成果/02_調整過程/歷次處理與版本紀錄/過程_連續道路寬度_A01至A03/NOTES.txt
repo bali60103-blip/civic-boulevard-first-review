@@ -1,0 +1,31 @@
+A01-A03｜roadsize2 道路中心線連續展寬｜2026-10-01
+
+保留原 CAD，另存新版本。本版寬度只取使用者 roadsize2，不使用 OSM width 或道路等級預設值。OSM 僅提供地面道路走向與連接。
+每條可配對相連道路鏈：多筆路寬依沿線里程插值；端部取最近一筆路寬持續延伸。左右偏心依路寬橫斷線中心相對 OSM 軸線的位置保留。
+注意：整鏈展寬比前版延伸更多，屬推定，不是每一公尺都有實測或航照確認；離路寬線最遠距離與原始 FID 均記錄在 JSON/GeoJSON。
+青線 ROAD_ENVELOPE_EST：新舊相接路面合併後的封閉輪廓；不得當作實测路緣。
+橙色淡填 WIDTH_EXTENDED_INFERENCE：超出上一版局部路寬支持區的新增推定範圍，不是已確認路面。
+橙色虛線／WIDTH_PENDING_AXIS：未配對路寬的中心線，不表示邊界。
+紫色 ROAD_BUILDING_CONFLICT：概估道路與 OSM 地面建物交疊，尚待修正；本版未改動建物來消除衝突。
+WIDTH_SOURCE_REF：原路寬横斷線，關閉參考層可自行開啟。roadwidth_axes.geojson 的中心線帶 width_profile、width_min、width_max 與 fids。
+西寧北路公園內舊位不補；塔城街及環河橋旁疑義不套寬；非地面 bridge/tunnel/layer 道路不使用地面路寬。
+OSM 地面中心線中，223 條鏈仍有全部或部分未還原。道路鏈不是道路名稱數；私人車道及停車場通道也可能包含其中。
+道路走廊尚未分離人行道、分隔島及車道；鄭州路 40m 尤其不能解讀為單一車道寬。
+本版模型 EPSG:3826、公尺 1:1；GeoJSON 為 WGS84。PNG 用於核對，不是定比例列印圖。
+© OpenStreetMap contributors / ODbL 1.0 / https://www.openstreetmap.org/copyright
+航照：臺北市都市發展局 Ortho_2025 快取，確切拍攝日期未確認；保留原水印。路寬資料的實際／計畫寬度定義與測量日期未明示。
+
+{
+  "scope": "A01-A03",
+  "width_source_only": "roadsize2.road_width",
+  "source_strokes_used": 166,
+  "restored_chains": 81,
+  "restored_length_m": 13510.085938960354,
+  "closed_road_rings": 39,
+  "duplicate_road_edges_m": 0.0,
+  "dxf_audit_errors": 0,
+  "extended_area_vs_local_version_m2": 81174.12839976713,
+  "building_overlap_m2": 3386.6537351838665,
+  "maximum_station_distance_m": 1082.2129601062784,
+  "geometry_valid": true
+}

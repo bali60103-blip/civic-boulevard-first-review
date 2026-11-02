@@ -1,0 +1,19 @@
+臺北市政府開放資料（政府資料開放授權條款第 1 版），2026-10-07 下載
+
+crosswalk_202407121519.zip —（交工處）行人穿越線圖資_202407121519
+  https://data.taipei/api/dataset/4d6bd0c6-9f56-408b-bb96-ac41134a95d5/resource/d56fe03c-0fbd-4a8b-998e-205a5e169211/download
+  SHA256 a7f4241ea1ecccfb09050fb38f4d8537a7f5ec1d4134eb7b8929217601ba0493
+marked_sidewalk_202406061103.zip —（交工處）標線型人行道圖資_202406061103
+  https://data.taipei/api/dataset/d647b3af-4bbd-4e8f-b420-8f6c1bc1b597/resource/2d82d5f1-8f97-45db-89df-162ba161dedb/download
+  SHA256 cccd6c903ab9226b34ad807058e129fd27b4b43a9f313eefc67f29d1c0792dd2
+arcade_moto_free_park10_202610021741.zip —（停管處）臺北市機車退出騎樓路段 park10_202610021741
+  https://data.taipei/api/frontstage/tpeod/dataset/resource.download?rid=932214a2-8291-4536-a8ca-4e6364bce86a
+  SHA256 32ae1aae13de16089bb30effbeff059e7e3dc50eac8010e8b14a44730b717569
+
+另用：~/Desktop/Civic_Rebuild_20260909_201934/data/taipei-sidewalks.geojson（新工處人行道範圍，檔案更新 2026-01-14，2026-09-09 下載）
+zip 內檔名為 Big5（CP950）編碼，已以 Python 解碼解壓於同名資料夾。
+
+TP_TREE_樹穴.json —（新工處）臺北市人行道固定設施物_樹穴（Name：樹穴／花圃，MultiPolygon，EPSG:3826），2026-10-07 下載
+  https://data.taipei/api/dataset/693705fa-4604-4207-bd50-8a9ce9fcfbc6/resource/3e2b359b-8dae-46e4-a747-5912d8743d0e/download
+  SHA256 9ed8de03c1ba61720bc3bc27903128831023f7590a9c38961a8382c7c9d80f03
+另：data/osm_street_points_4326.geojson 由本地 OSM PBF（2026-09-08）以 scripts/06_extract_osm_points.py 抽出（捷運出入口等）。

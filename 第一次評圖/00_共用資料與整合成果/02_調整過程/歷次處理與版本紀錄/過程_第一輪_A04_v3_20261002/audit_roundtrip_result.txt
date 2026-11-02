@@ -1,0 +1,56 @@
+Attribute Qt::AA_PluginApplication must be set before QCoreApplication is created.
+Redirect stdout (file: /var/tmp/accc98117j9wioD).
+AcCoreConsole: StdOutConsoleMode: processed-output: enabled,auto
+AutoCAD Core Engine Console - Copyright 2024 Autodesk, Inc.  All rights reserved. (V.58.M.214)
+
+Execution Path:
+/Applications/Autodesk/AutoCAD 2025/AutoCAD 2025.app/Contents/Helpers/AcCoreConsole.app
+Current Directory: /Users/ktlu/Library/Application Support/Claude/scratch-workspaces/96c4d914-47f3-4dc6-967b-d97ec19ed9ea/dd6e9a1d-2374-47f0-8fb8-8df45a98a096/scratch-2026-09-09-5e0d5b
+
+Version Number: V.58.M.214 (UNICODE)
+LogFilePath has been set to the working folder.
+.
+; error: File load canceled: /Applications/Autodesk/AutoCAD 2025/AutoCAD 2025.app/Contents/Resources/Support/@en@/acad2025.LSP
+Command: 
+Command: 
+Command: 
+Command: _.AUDIT
+Fix any errors detected? [Yes/No] <N>: _No
+                                       
+                                       
+                              
+Pass 1 100     objects audited
+                              
+Pass 2 100     objects audited
+                                      
+ 1       Blocks audited
+                                  
+Total errors found 0 fixed 0
+Erased 0 objects
+Command: (princ (strcat "\nQA_INSUNITS=" (itoa (getvar "INSUNITS"))))
+QA_INSUNITS=6"\nQA_INSUNITS=6"
+Command: (setq qaDict (cdr (assoc -1 (dictsearch (namedobjdict) "ACAD_LAYOUT"))))
+<Entity name: 7f8592b280d0>
+Command: (setq qaRow (dictnext qaDict T))
+((-1 . <Entity name: 7f8592b4b6f0>) (0 . "LAYOUT") (330 . <Entity name: 7f8592b280d0>) (5 . "58F") (100 . "AcDbPlotSettings") (1 . "") (2 . "") (4 . "ISO_A1_(841.00_x_594.00_MM)") (40 . 0.0) (41 . 0.0) (42 . 0.0) (43 . 0.0) (44 . 841.0) (45 . 594.0) (46 . 0.0) (47 . 0.0) (48 . 0.0) (49 . 0.0) (140 . 0.0) (141 . 0.0) (142 . 1.0) (143 . 1.0) (70 . 672) (72 . 1) (73 . 0) (74 . 5) (7 . "") (75 . 16) (147 . 1.0) (76 . 0) (77 . 2) (78 . 300) (148 . 0.0) (149 . 0.0) (100 . "AcDbLayout") (1 . "A04_CLEAN") (70 . 1) (71 . 3) (10 0.0 0.0 0.0) (11 841.0 594.0 0.0) (12 0.0 0.0 0.0) (14 1.0e+20 1.0e+20 1.0e+20) (15 -1.0e+20 -1.0e+20 -1.0e+20) (146 . 0.0) (13 0.0 0.0 0.0) (16 1.0 0.0 0.0) (17 0.0 1.0 0.0) (76 . 0) (330 . <Entity name: 7f8592b4b6c0>) (331 . <Entity name: 7f8592b4b700>))
+Command: (while qaRow (princ "\nQA_LAYOUT=") (prin1 (list (cdr (assoc 1 (reverse qaRow))) (assoc 44 qaRow) (assoc 45 qaRow))) (setq qaRow (dictnext qaDict)))
+QA_LAYOUT=("A04_CLEAN" (44 . 841.0) (45 . 594.0))
+QA_LAYOUT=("A04_REVIEW" (44 . 841.0) (45 . 594.0))
+QA_LAYOUT=("Model" (44 . 420.0) (45 . 297.0))nil
+Command: (setq qaSet (ssget "_X" '((0 . "VIEWPORT"))))
+<Selection set: 2>
+Command: (setq qaN 0)
+0
+Command: (while (< qaN (sslength qaSet)) (setq qaEnt (entget (ssname qaSet qaN))) (princ "\nQA_VIEWPORT=") (prin1 (list (assoc 410 qaEnt) (assoc 69 qaEnt) (assoc 40 qaEnt) (assoc 41 qaEnt) (assoc 45 qaEnt))) (setq qaN (1+ qaN)))
+QA_VIEWPORT=((410 . "A04_CLEAN") (69 . 2) (40 . 760.0) (41 . 510.0) (45 . 510.0))
+QA_VIEWPORT=((410 . "A04_CLEAN") (69 . 1) (40 . 925.1) (41 . 653.4) (45 . 653.4))
+QA_VIEWPORT=((410 . "A04_REVIEW") (69 . 0) (40 . 760.0) (41 . 510.0) (45 . 510.0))
+QA_VIEWPORT=((410 . "A04_REVIEW") (69 . 0) (40 . 925.1) (41 . 653.4) (45 . 653.4))4
+Command: (princ (strcat "\nQA_ROAD_RINGS=" (itoa (sslength (ssget "_X" '((0 . "LWPOLYLINE") (8 . "ROAD_ENVELOPE_EST")))))))
+QA_ROAD_RINGS=41"\nQA_ROAD_RINGS=41"
+Command: (princ (strcat "\nQA_BUILDING_RINGS=" (itoa (sslength (ssget "_X" '((0 . "LWPOLYLINE") (8 . "BUILDING_OUTLINE")))))))
+QA_BUILDING_RINGS=211"\nQA_BUILDING_RINGS=211"
+Command: _.QUIT
+_Yes
+Really want to discard all changes to drawing? <N> _YesLogFilePath has been restored to ''.
+

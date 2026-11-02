@@ -1,0 +1,17 @@
+2026-10-02 AutoCAD 2025 AcCoreConsole 原生重新開啟 DWG 稽核結果摘錄（非完整日誌）
+輸入：A04_fresh_blocks_v7.dwg；腳本：audit.scr；執行程序退出碼 0。
+啟動出現 acad2025.LSP File load canceled；後續明確執行 AUDIT 及所有 QA 查詢成功。
+Total errors found 0 fixed 0
+Erased 0 objects
+QA_INSUNITS=6
+QA_LAYER=("BUILDING_OUTLINE" (62 . -7) (70 . 1))
+QA_LAYER=("BUILDING_FILL" (62 . -7) (70 . 1))
+QA_LAYER=("BUILDING_REBUILT_OUTLINE" (62 . 7) (70 . 0))
+QA_LAYER=("BUILDING_REBUILT_FILL" (62 . 7) (70 . 0))
+QA_ROAD_RINGS=41
+QA_NEW_BUILDING_RINGS=339
+QA_OPEN_OUTLINES=0
+QA_LAYOUT=("A04_CLEAN" (44 . 841.0) (45 . 594.0))
+QA_LAYOUT=("A04_REVIEW" (44 . 841.0) (45 . 594.0))
+QA_VIEWPORT=((410 . "A04_CLEAN") (40 . 760.0) (41 . 510.0) (45 . 510.0))
+QA_VIEWPORT=((410 . "A04_REVIEW") (40 . 760.0) (41 . 510.0) (45 . 510.0))

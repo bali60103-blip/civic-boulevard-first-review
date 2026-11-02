@@ -1,0 +1,13 @@
+市民大道｜南京路至仁愛路擴幅｜2026-10-05
+
+先開pdf/A01_A10_Nanjing_Renai_20261005.pdf。第1頁是新擴幅索引，A1、1:10000；第2–21頁沿用原v2，各分幅1:1000。只在原十幅範圍內填色，周邊建物僅輪廓。
+DWG/DXF：A01_A10_Nanjing_Renai_20261005。單一EPSG:3826公尺模型，預設A00_INDEX；images資料夾須與DWG保持相對位置，以免原十幅航照失聯。PDF是同幾何排版，不是AutoCAD原生列印。
+
+主要圖層：ROAD_ENVELOPE_EST道路閉合外緣；BUILDING_OUTLINE可見去重建物線；BUILDING_FILL僅原十幅填色；BUILDING_CLOSED_REF完整閉合建物環（關閉凍結，不要與可見輪廓同開）；CONTEXT_REVIEW新增24點註記（預設關閉，可開啟模型查看）；原REVIEW保留既有審閱標記。粉色紙面圖框僅代表分幅範圍。
+
+REVIEW_11/12/21/22/31/32為全幅六區航照疊圖；CONFLICTS_1–4為24點放大圖，每張六點：青色道路、黃色最終建物、粉色虛線原始疑義輪廓。cut%是初次裁切篩選比例，不是最終刪除比例；詳見visual_review_log.json。所有XB編號仍待使用者審閱。原211個待審編號與已接受項目保持原狀。
+
+資料：本地OSM PBF檔名日期2026-09-08、使用者路寬檔、臺北市2025航照。OSM不是本輪即時下載；航照圖層年份不等於逐張拍攝日期。新範圍依資料與航照概估，未逐棟實測、逐車道或街景確認，亦非50cm剖切。
+法主公廟量體恢復，新估道路不穿越它；兩個跨道路細長構造先從一般地面建物表示排除，保留來源記錄及編號，非確認拆除。其餘大裁切先依青線完成假設，不能把零重疊當成現況完全正確。
+
+來源與重現：source/expanded_osm.geojson、source/local_osm_manifest.json、imagery_manifest.json、segment_decisions.json、width_matching.json、building_conflicts.json、visual_review_log.json及隨附修訂25工作流程。原v2與本輪檔案分開保存。

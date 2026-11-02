@@ -1,0 +1,38 @@
+Attribute Qt::AA_PluginApplication must be set before QCoreApplication is created.
+Redirect stdout (file: /var/tmp/accc13547Tddl1D).
+AcCoreConsole: StdOutConsoleMode: processed-output: enabled,auto
+AutoCAD Core Engine Console - Copyright 2024 Autodesk, Inc.  All rights reserved. (V.58.M.214)
+
+Execution Path:
+/Applications/Autodesk/AutoCAD 2025/AutoCAD 2025.app/Contents/Helpers/AcCoreConsole.app
+Current Directory: /Users/ktlu/Library/Application Support/Claude/scratch-workspaces/96c4d914-47f3-4dc6-967b-d97ec19ed9ea/dd6e9a1d-2374-47f0-8fb8-8df45a98a096/scratch-2026-09-09-5e0d5b
+
+Version Number: V.58.M.214 (UNICODE)
+LogFilePath has been set to the working folder.
+.
+; error: File load canceled: /Applications/Autodesk/AutoCAD 2025/AutoCAD 2025.app/Contents/Resources/Support/@en@/acad2025.LSP
+Command: 
+Command: 
+Command: 
+Command: FILEDIA
+Enter new value for FILEDIA <0>: 0
+Command: _.DXFIN
+File name: "/Users/ktlu/Library/Application Support/Claude/scratch-workspaces/96c4d914-47f3-4dc6-967b-d97ec19ed9ea/dd6e9a1d-2374-47f0-8fb8-8df45a98a096/scratch-2026-09-09-5e0d5b/civic/output/a01_a10_unified_v1_20261003/A01_A10_unified_v1.dxf"
+Regenerating model..
+                                       
+                                       
+                              
+Pass 1 100     objects audited
+                              
+Pass 2 100     objects audited
+                                      
+ 10      Blocks audited
+                                  
+Total errors found 0 fixed 0
+Erased 0 objects
+Custom object(s) encountered.
+Command: _.SAVEAS
+Enter file format [R14(LT98&LT97)/2000(LT2000)/2004(LT2004)/2007(LT2007)/2010(LT2010)/2013(LT2013)/2018(LT2018)/DXF/Template] <2018>: 2018
+Save drawing as </Users/ktlu/Library/Application Support/Claude/scratch-workspaces/96c4d914-47f3-4dc6-967b-d97ec19ed9ea/dd6e9a1d-2374-47f0-8fb8-8df45a98a096/scratch-2026-09-09-5e0d5b/Drawing1.dwg>: "/Users/ktlu/Library/Application Support/Claude/scratch-workspaces/96c4d914-47f3-4dc6-967b-d97ec19ed9ea/dd6e9a1d-2374-47f0-8fb8-8df45a98a096/scratch-2026-09-09-5e0d5b/civic/output/a01_a10_unified_v1_20261003/A01_A10_unified_v1.dwg"
+Do you want to replace it? <N> _Yes
+Command: _.QUITLogFilePath has been restored to ''.

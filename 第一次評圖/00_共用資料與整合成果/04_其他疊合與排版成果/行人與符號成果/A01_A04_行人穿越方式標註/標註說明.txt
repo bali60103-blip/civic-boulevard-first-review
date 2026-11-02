@@ -1,0 +1,21 @@
+行人穿越方式標註｜A01–A04
+
+綠：斑馬線／平面穿越
+藍：地下道／地下連通道（虛線為示意）
+紫：空橋／人行天橋；橋上人行道另以文字區分
+橘：方式、開放狀態或位置待確認
+
+本套為航照與參考資料判讀的示意標註版，非完整通行設施清冊或實測圖。地下路線與入口位置未逐一現場驗證；圖中待確認設施不可據此認定開放。生成的標註圖片不作為 CAD 或比例尺量測依據。
+
+原始底圖：桌面 A01_A03_第一輪_v3_交付包、a04_contiguous_v8_20261002。
+位置参考：原交付資料所引用之 /Users/ktlu/Downloads/a01-03、/Users/ktlu/Downloads/a04map.osm，© OpenStreetMap contributors，ODbL。
+
+外部核對資料（查詢日 2026-10-02）：
+台北地下街地理位置（臺北市市場處）：
+https://www.tcma.gov.taipei/News_Content.aspx?n=1B4C0C7262E0B622&s=9B60577413A312AE
+臺北市新建工程處人行地下道一覽表（含中山市民、林森市民；資料較早，現況待確認）：
+https://www-ws.gov.taipei/001/Upload/346/relfile/17174/8167373/b283b4d6-f5a0-4e70-a15d-5d5058e79a27.pdf
+京站交通指引（承德路可經天橋）：
+https://www.qsquare.com.tw/traffic-public.php
+
+原始圖檔未覆寫。初版僅標通行位置的圖片已由本套穿越方式版取代。

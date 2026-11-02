@@ -1,0 +1,4 @@
+.DS_Store
+*.ai
+*.zip
+__pycache__/

@@ -1,0 +1,15 @@
+內政部開放資料（2026-10-12 00:40 下載；使用者同意下載；供 30_sports_housing.py Z4 住宅戶數）
+
+1. village_households/opendata11509M030.csv（4,410,232 bytes）
+   資料集：內政部戶政司「村里戶數、單一年齡人口（新增區域代碼）」115 年 9 月（data.gov.tw/dataset/77132）
+   URL：https://opdadm.moi.gov.tw/api/v1/no-auth/resource/api/dataset/2C7688CB-B505-4D00-B11C-66C4D31B024F/resource/4B0C00ED-C271-4A3E-A547-3C00EE6BF3E4/download
+   SHA-256：2d6553617f516896399f57aad01e21025bad482e7e5a4cd1b6c411047c75cac6
+   欄位：統計年月、區域別代碼（＝村里代碼 VILLCODE）、區域別、村里、戶數、人口數、各單一年齡男女人數
+
+2. village_boundary/村里界_114年版.zip（22,171,681 bytes；內含另一層 zip）
+   資料集：內政部地政司「村里界歷史圖資」114 年版（data.gov.tw/dataset/130549）
+   URL：https://www.land.moi.gov.tw/chhtml/DownloadGovDoc?gsno=PY9YAR&gdid=533
+   SHA-256：3de4ac9b88e57754fd1d5b28ab6317486f87b9bc1cff38580ce01708a901d236
+   解壓：village_boundary/extracted/VILLAGE_NLSC_11401031.*（TWD97 經緯度，EPSG:3824；程式內轉 EPSG:3826）
+
+授權：政府資料開放授權條款－第 1 版

@@ -1,0 +1,10 @@
+2026-10-02 AutoCAD 2025 Core Console 原生重新開啟 DWG。
+AUDIT：Total errors found 0 fixed 0；Erased 0 objects。
+INSUNITS=6（公尺）。
+ROAD_ENVELOPE_EST：117 個 LWPOLYLINE。
+BUILDING_OUTLINE：345 個 LWPOLYLINE。
+兩圖層合計 462 個輪廓，未閉合 0。
+SOURCE_BUILDING_REF、SOURCE_CENTERLINES、NON_GROUND_PATH_REF、OVERHEAD_ROOF_REF：圖層關閉且凍結。
+A05_CLEAN、A05_REVIEW、A06_CLEAN、A06_REVIEW 主視埠：760×510，view height 510。
+啟動曾提示 acad2025.LSP File load canceled；後续 AUDIT 及幾何查詢正常完成。這不是位置精度或現況查證。
+稽核指令保留於 audit.scr；PDF 另由同源幾何渲染，不是 AutoCAD 原生列印。

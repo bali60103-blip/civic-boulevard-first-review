@@ -1,0 +1,43 @@
+A01–A03 道路寬度概估｜2026-10-01
+
+本版為独立還原候選，不覆蓋原 CAD。僅處理使用者 OSM XML 的 A01–A03 地面可行車道路；不替步道或室內走道指定車道寬。
+ROAD_ENVELOPE_EST：封閉的概估道路走廊，合併相交路面；不是實測路緣，也尚未扣除分隔島及人行道。
+WIDTH_PENDING_AXIS：缺少路寬、來源衝突或超出支持距離的道路中線，不代表道路邊界。
+OSM_UPPER_LOWER_REF：OSM bridge/tunnel/layer 等非地面參考，不納入地面寬度。
+OSM_BUILDING_REF：原 OSM 建物參考，已排除明確地下建物；不是測量地面外牆。
+ROAD_BUILDING_CONFLICT：還原道路面與 OSM 建物重疊，保留待核；未裁切建物來掩蓋衝突。
+WIDTH_SOURCE_REF：原路寬橫斷線，預設關閉；原檔的實際／計畫／法定寬度定義未明示。
+25m 單端外推及 120m 內錨點插值均為概估方法；幾何封口只是支持範圍，不代表死巷盡頭。OSM width 標記則僅作原路段概估。
+來源：/Users/ktlu/Downloads/a01-03，roadsize2 EPSG:3826，臺北市 Ortho_2025 快取航照。拍攝／測量時點未驗證；未逐處街景核查。
+鄭州路 40m 部分僅畫整體走廊，不能視為單一車道寬；橋下路緣未硬補。
+航照核對後退回：西寧北路公園內舊線位、塔城街寬度異常、環河路橋旁層次不明位置、遮蔽衝突巷道。
+完整計算與來源對應見 restoration.json；個別採用段及寬度見 width_estimates.geojson；人工退回原因見 aerial_decisions.json。
+圖面模型單位公尺 1:1，EPSG:3826。三張 PNG 為航照核對圖，青色候選段含 R 編號、橙色為待核中線，非正式比例印圖。
+
+{
+  "ground_chains": 303,
+  "width_strokes": 226,
+  "station_status": {
+    "OFF_AXIS": 5,
+    "MATCHED": 174,
+    "UNMATCHED": 11,
+    "MULTIPLE_ROADS": 36
+  },
+  "restored_chain_count": 85,
+  "restored_intervals": 96,
+  "pending_chain_count": 289,
+  "total_ground_axis_m": 32460.47904731451,
+  "restored_axis_m": 7736.82241276242,
+  "surface_area_m2": 88066.44320317965,
+  "building_overlap_m2": 2412.0566249979984,
+  "geometry_valid": true,
+  "source_crs": "EPSG:3826",
+  "note": "非實測；路寬檔用途未明示。25m 有限外推、120m 內錨點插值。未自動扣除人行道或分隔島。"
+}
+{
+  "closed_rings": 52,
+  "duplicate_envelope_edge_length_m": 0.0,
+  "dxf_audit_errors": 0,
+  "original_cad_unchanged": true,
+  "visualization_bytes": 438648
+}

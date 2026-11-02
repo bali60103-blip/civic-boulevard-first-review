@@ -1,0 +1,7 @@
+簡報「事件 · 痕跡 — 場域」｜2026-10-14
+規格與決定紀錄見 workflow 修訂29 第二十三、二十四節；文字見 簡報逐頁文字_v5.txt。
+
+編輯用：事件痕跡場域_簡報.ai（Illustrator；10 個工作區域，圖層：底色／圖／圖說與頁碼；各頁圖已嵌入為向量）
+檢視用：事件痕跡場域_簡報.pdf；_預覽/（每頁 jpg）
+素材：_圖/（各頁地圖向量 PDF）、_ai_layers/（組 AI 用之分層 PDF）
+重現：python3 scripts/04_slides.py → ./scripts/05_make_ai.sh

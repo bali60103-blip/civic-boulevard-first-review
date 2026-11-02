@@ -1,0 +1,7 @@
+本輪子目標：A05／A06 粉青與粉粉衝突清理。
+先看 PDF 第 2、4 頁及 56R001-005_comparison.png，再依編號回覆。
+DWG 與 images 資料夾一起保存，保留相對路徑航照。
+ROAD_ENVELOPE_EST：固定道路；BUILDING_OUTLINE：去重顯示線，部分開放；BUILDING_CLOSED_REF：完整閉合參考環，預設關閉凍結。使用完整參考環前先關閉顯示線。
+BUILDING_FILL：黑色透明度40%；REVIEW：可關閉粉色註記；舊補繪粉框另存 historical_revision_log_v2.json。
+舊編號未刪除，見本輪修改與編號對照.txt。
+來源與前版保持不變，本版不等於全段總目標完成。

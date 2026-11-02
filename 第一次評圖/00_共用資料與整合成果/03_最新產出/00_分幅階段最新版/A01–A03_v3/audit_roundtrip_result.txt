@@ -1,0 +1,19 @@
+AutoCAD 2025 Core Console，重新開啟 A01_A03_round1_v3.dwg 後執行 audit_roundtrip.scr。
+驗收日期：2026-10-01。
+
+AUDIT 原生輸出：Total errors found 0 fixed 0；Erased 0 objects。
+INSUNITS=6（公尺）。
+ROAD_ENVELOPE_EST 原生 LWPOLYLINE 數量：146。
+OSM_BUILDING_REF 原生 LWPOLYLINE 數量：518。
+
+六個圖紙配置原生讀值：
+A01_CLEAN：841×594 mm；圖面視埠 760×510 mm，模型 view_height=510 m。
+A01_REVIEW：841×594 mm；圖面視埠 760×510 mm，模型 view_height=510 m。
+A02_CLEAN：841×594 mm；圖面視埠 760×510 mm，模型 view_height=510 m。
+A02_REVIEW：841×594 mm；圖面視埠 760×510 mm，模型 view_height=510 m。
+A03_CLEAN：841×594 mm；圖面視埠 760×510 mm，模型 view_height=510 m。
+A03_REVIEW：841×594 mm；圖面視埠 760×510 mm，模型 view_height=510 m。
+紙張列印比例：1:1。紙上 1 mm = 模型 1 m，因此物理出圖比例 1:1000。
+
+PDF 為同源 GeoJSON 獨立渲染之六頁 A1 預覽，已逐頁檢查。此處未宣稱完成 AutoCAD 原生 PDF 列印或實體印表機出圖測試。
+啟動時 acad2025.LSP 顯示 File load canceled；不影響後續 AUDIT、entget、ssget 及配置字典讀取。

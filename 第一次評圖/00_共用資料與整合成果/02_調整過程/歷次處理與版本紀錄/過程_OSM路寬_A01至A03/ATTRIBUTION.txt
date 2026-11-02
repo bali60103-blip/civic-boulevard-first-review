@@ -1,0 +1,3 @@
+OSM geometry: © OpenStreetMap contributors, ODbL 1.0. https://www.openstreetmap.org/copyright
+User-supplied roadsize2: original licensing and width definition not independently verified.
+Aerial review images: Taipei Urban Development Department Ortho_2025; original watermarks retained.

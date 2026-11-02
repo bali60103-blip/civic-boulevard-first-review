@@ -1,0 +1,15 @@
+2026-10-02 AutoCAD 2025 Core Console: reopen A04_road_plan_v5.dwg
+Actual native audit output excerpt, not the full console transcript.
+Total errors found 0 fixed 0
+Erased 0 objects
+QA_INSUNITS=6
+QA_LAYOUT=("A04_CLEAN" (44 . 841.0) (45 . 594.0))
+QA_LAYOUT=("A04_REVIEW" (44 . 841.0) (45 . 594.0))
+QA_VIEWPORT=((410 . "A04_CLEAN") (69 . 2) (40 . 760.0) (41 . 510.0) (45 . 510.0))
+QA_VIEWPORT=((410 . "A04_REVIEW") (69 . 0) (40 . 760.0) (41 . 510.0) (45 . 510.0))
+QA_ROAD_RINGS=41
+QA_BUILDING_RINGS=227
+QA_OPEN_OUTLINES=0
+Closed-outline check visited 268 road/building LWPOLYLINE entities.
+Process exit code: 0
+Startup warning: File load canceled: acad2025.LSP. Explicit AUDIT and all QA expressions executed successfully afterward.

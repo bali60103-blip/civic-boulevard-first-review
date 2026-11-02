@@ -1,0 +1,13 @@
+A04 v7 逐街區獨立航照重建｜2026-10-02
+本輪完成 41 個地面建物工作區的重新描繪，另將 K38 兩組疑似棚頂列為參考；K48 不重畫。
+319 組原始描點中採用 313 組地面量體、2 組棚頂參考；K59 4 組在工作區外或裁成殘片，未當作房屋。量體群不等於實測棟數或產權戶數。
+主檔 A04_fresh_blocks_v7.dwg；交換檔同名 DXF。
+新建物圖層 BUILDING_REBUILT_OUTLINE / BUILDING_REBUILT_FILL；舊 BUILDING_OUTLINE / BUILDING_FILL 關閉凍結保留。K48 為唯一沿用舊輪廓的排除區。
+PDF：pdf/A04_A1_1000_v7.pdf，兩頁 A1／1:1000，純線＋航照審閱；為同源幾何獨立渲染，非 AutoCAD 原生列印。
+每區 Kxx_aerial.png 是不含舊建物線的來源；Kxx_rebuilt.png 是新描輪廓與 Kxx-Rxx 編號。review_plate_1–7.png 可一次看六區。請用編號指定合理或重做。
+建物黑填色透明度 40%，航照不透明度 35%。圖框封口不是真實道路邊緣。
+道路幾何及 CAD 實體與 v6 相同；H436/H448 拒絕區未補回（幾何數值容差 0.000001 m²）。道路 41 環、建物含 K48 共 339 環，均閉合無自交，沒有同層重邊或道路建物重疊；DWG 重新開啟 AUDIT 0 錯誤。
+重點待審：K01/K17/K18 陰影與邊界、K20 高樓視差、K38 棚頂、K50/K56 內院、K59 特殊量體。全部仍是 2025 快取航照概估，未新增街景；閉合驗收不保證位置準確，也不保證遮蔽處沒有漏畫。
+A03 接幅：附 A03_overlap_replacement.geojson 與 A03_overlap_mask.geojson，尚未回寫舊 A03 CAD。舊 A03／新 A04 建物尚不能當成無縫一致。
+source_manifest、segment_decisions、width_matching、deletion_log、assumption_index 沿用歷史來源與道路假設；其中舊建物假設不能代替 v7 最終幾何。v7 以 fresh_building_groups、building_outlines、manual_trace_groups、block_revision_log 為準。
+不含 A05–A10 完成、全段索引或 50 cm 橋墩／引道剖面。workflow 修訂 12 已記錄本輪方法與限制。所有舊版保留。

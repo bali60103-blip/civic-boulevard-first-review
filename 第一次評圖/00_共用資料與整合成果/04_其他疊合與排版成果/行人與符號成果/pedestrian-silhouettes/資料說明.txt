@@ -1,0 +1,7 @@
+線稿 PDF 原有向量幾何保留；僅附加斑馬線與人行天橋俯視剪影。無運具分類、文字、圖例。
+斑馬線位置及走向依原始 OSM crossing 線段，條紋與寬度為示意。
+承德市民天橋採官方端點及橋寬，樓梯採原始 OSM；忠孝西路天橋採 OSM 橋面、樓梯線段。
+未找到可直接使用的施工平面圖；剪影是資料重建的參考平面，非施工或實測認證。未把車行橋上人行道、未確認短橋與地下街路線當作空橋。
+資料：© OpenStreetMap contributors，ODbL；2026-10-02 查閱。
+官方資料：https://bridge.nco.taipei/bms2/guest/Footbridge/inventory.aspx?vid=64
+官方照片：https://bridge.nco.taipei/bms2/guest/Footbridge/photo.aspx?vid=64

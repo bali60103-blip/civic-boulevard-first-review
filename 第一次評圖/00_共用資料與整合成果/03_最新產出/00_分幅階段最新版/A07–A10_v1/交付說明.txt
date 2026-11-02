@@ -1,0 +1,9 @@
+先看PDF第2、4、6、8頁航照審閱；依710R／710C回覆。
+四幅共用同一模型，A1 1:1000，公尺1:1，100%列印。
+DWG請與images資料夾共同保存。
+ROAD_ENVELOPE_EST：完整閉合道路環；BUILDING_OUTLINE：去除道路共邊的建物顯示線（部分開放）。
+BUILDING_CLOSED_REF：完整閉合建物環，關閉凍結；使用時先關閉BUILDING_OUTLINE避免重線。
+BUILDING_FILL：黑填色透明度40%；REVIEW：可隱藏註記；其餘來源及非地面圖層預設隱藏。
+每幅航照不透明度35%，CAD淡化65%，參數見qa.json。
+PDF為相同GIS幾何的獨立預覽，不是AutoCAD列印結果。
+接下來統一清理 A01–A10，包含 A05／A06 待審處與跨幅接線。

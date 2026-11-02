@@ -1,0 +1,45 @@
+A04 v7 逐街區重建清單（全數概估待審，不等於使用者接受）
+K48：排除重建、保持原幾何。其餘如下；R 編號見每區 rebuilt 圖。
+方向角為道路圍合區推得的製圖輔助，不是牆面測量。
+K01｜逐區獨立重建完成／概估待審｜原始 2 組／採用 2 組｜局部方向 -13.80°｜K01_aerial.png → K01_rebuilt.png
+K02｜逐區獨立重建完成／概估待審｜原始 4 組／採用 4 組｜局部方向 -14.04°｜K02_aerial.png → K02_rebuilt.png
+K03｜逐區獨立重建完成／概估待審｜原始 8 組／採用 8 組｜局部方向 -13.44°｜K03_aerial.png → K03_rebuilt.png
+K04｜逐區獨立重建完成／概估待審｜原始 14 組／採用 14 組｜局部方向 -13.90°｜K04_aerial.png → K04_rebuilt.png
+K05｜逐區獨立重建完成／概估待審｜原始 3 組／採用 3 組｜局部方向 -14.31°｜K05_aerial.png → K05_rebuilt.png
+K06｜逐區獨立重建完成／概估待審｜原始 6 組／採用 6 組｜局部方向 33.45°｜K06_aerial.png → K06_rebuilt.png
+K07｜逐區獨立重建完成／概估待審｜原始 2 組／採用 2 組｜局部方向 0.00°｜K07_aerial.png → K07_rebuilt.png
+K08｜逐區獨立重建完成／概估待審｜原始 2 組／採用 2 組｜局部方向 0.00°｜K08_aerial.png → K08_rebuilt.png
+K09｜逐區獨立重建完成／概估待審｜原始 12 組／採用 12 組｜局部方向 -13.74°｜K09_aerial.png → K09_rebuilt.png
+K10｜逐區獨立重建完成／概估待審｜原始 5 組／採用 5 組｜局部方向 -14.09°｜K10_aerial.png → K10_rebuilt.png
+K11｜逐區獨立重建完成／概估待審｜原始 10 組／採用 10 組｜局部方向 -14.34°｜K11_aerial.png → K11_rebuilt.png
+K14｜逐區獨立重建完成／概估待審｜原始 4 組／採用 4 組｜局部方向 -0.12°｜K14_aerial.png → K14_rebuilt.png
+K15｜逐區獨立重建完成／概估待審｜原始 11 組／採用 11 組｜局部方向 -0.96°｜K15_aerial.png → K15_rebuilt.png
+K16｜逐區獨立重建完成／概估待審｜原始 4 組／採用 4 組｜局部方向 -1.08°｜K16_aerial.png → K16_rebuilt.png
+K17｜逐區獨立重建完成／概估待審｜原始 1 組／採用 1 組｜局部方向 -12.94°｜K17_aerial.png → K17_rebuilt.png
+K18｜逐區獨立重建完成／概估待審｜原始 6 組／採用 6 組｜局部方向 -14.80°｜K18_aerial.png → K18_rebuilt.png
+K19｜逐區獨立重建完成／概估待審｜原始 14 組／採用 14 組｜局部方向 -14.03°｜K19_aerial.png → K19_rebuilt.png
+K20｜逐區獨立重建完成／概估待審｜原始 9 組／採用 9 組｜局部方向 -14.08°｜K20_aerial.png → K20_rebuilt.png
+K23｜逐區獨立重建完成／概估待審｜原始 9 組／採用 9 組｜局部方向 -0.96°｜K23_aerial.png → K23_rebuilt.png
+K25｜逐區獨立重建完成／概估待審｜原始 11 組／採用 11 組｜局部方向 -14.49°｜K25_aerial.png → K25_rebuilt.png
+K26｜逐區獨立重建完成／概估待審｜原始 14 組／採用 14 組｜局部方向 -14.49°｜K26_aerial.png → K26_rebuilt.png
+K27｜逐區獨立重建完成／概估待審｜原始 5 組／採用 5 組｜局部方向 -14.08°｜K27_aerial.png → K27_rebuilt.png
+K28｜逐區獨立重建完成／概估待審｜原始 3 組／採用 3 組｜局部方向 -0.05°｜K28_aerial.png → K28_rebuilt.png
+K31｜逐區獨立重建完成／概估待審｜原始 12 組／採用 12 組｜局部方向 -44.92°｜K31_aerial.png → K31_rebuilt.png
+K33｜逐區獨立重建完成／概估待審｜原始 7 組／採用 7 組｜局部方向 -0.72°｜K33_aerial.png → K33_rebuilt.png
+K34｜逐區獨立重建完成／概估待審｜原始 3 組／採用 3 組｜局部方向 -0.05°｜K34_aerial.png → K34_rebuilt.png
+K36｜逐區獨立重建完成／概估待審｜原始 11 組／採用 11 組｜局部方向 -16.94°｜K36_aerial.png → K36_rebuilt.png
+K37｜逐區獨立重建完成／概估待審｜原始 5 組／採用 5 組｜局部方向 -44.98°｜K37_aerial.png → K37_rebuilt.png
+K38｜另層記錄疑似棚頂，非已確認落地房屋｜原始 2 組／採用 2 組｜局部方向 -0.82°｜K38_aerial.png → K38_rebuilt.png
+K41｜逐區獨立重建完成／概估待審｜原始 4 組／採用 4 組｜局部方向 -18.63°｜K41_aerial.png → K41_rebuilt.png
+K42｜逐區獨立重建完成／概估待審｜原始 30 組／採用 30 組｜局部方向 -39.84°｜K42_aerial.png → K42_rebuilt.png
+K43｜逐區獨立重建完成／概估待審｜原始 11 組／採用 11 組｜局部方向 -41.74°｜K43_aerial.png → K43_rebuilt.png
+K45｜逐區獨立重建完成／概估待審｜原始 3 組／採用 3 組｜局部方向 -37.59°｜K45_aerial.png → K45_rebuilt.png
+K50｜逐區獨立重建完成／概估待審｜原始 5 組／採用 5 組｜局部方向 -16.45°｜K50_aerial.png → K50_rebuilt.png
+K51｜逐區獨立重建完成／概估待審｜原始 15 組／採用 15 組｜局部方向 -14.44°｜K51_aerial.png → K51_rebuilt.png
+K55｜逐區獨立重建完成／概估待審｜原始 11 組／採用 11 組｜局部方向 -15.30°｜K55_aerial.png → K55_rebuilt.png
+K56｜逐區獨立重建完成／概估待審｜原始 6 組／採用 6 組｜局部方向 -14.12°｜K56_aerial.png → K56_rebuilt.png
+K57｜逐區獨立重建完成／概估待審｜原始 8 組／採用 8 組｜局部方向 -14.53°｜K57_aerial.png → K57_rebuilt.png
+K59｜逐區獨立重建完成／概估待審｜原始 5 組／採用 1 組｜局部方向 -14.29°｜K59_aerial.png → K59_rebuilt.png
+K60｜逐區獨立重建完成／概估待審｜原始 7 組／採用 7 組｜局部方向 0.00°｜K60_aerial.png → K60_rebuilt.png
+K61｜逐區獨立重建完成／概估待審｜原始 12 組／採用 12 組｜局部方向 -13.97°｜K61_aerial.png → K61_rebuilt.png
+K64｜逐區獨立重建完成／概估待審｜原始 3 組／採用 3 組｜局部方向 0.00°｜K64_aerial.png → K64_rebuilt.png

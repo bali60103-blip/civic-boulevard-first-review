@@ -1,0 +1,99 @@
+Attribute Qt::AA_PluginApplication must be set before QCoreApplication is created.
+Redirect stdout (file: /var/tmp/accc13546hh041G).
+AcCoreConsole: StdOutConsoleMode: processed-output: enabled,auto
+AutoCAD Core Engine Console - Copyright 2024 Autodesk, Inc.  All rights reserved. (V.58.M.214)
+
+Execution Path:
+/Applications/Autodesk/AutoCAD 2025/AutoCAD 2025.app/Contents/Helpers/AcCoreConsole.app
+Current Directory: /Users/ktlu/Library/Application Support/Claude/scratch-workspaces/96c4d914-47f3-4dc6-967b-d97ec19ed9ea/dd6e9a1d-2374-47f0-8fb8-8df45a98a096/scratch-2026-09-09-5e0d5b
+
+Version Number: V.58.M.214 (UNICODE)
+LogFilePath has been set to the working folder.
+.
+; error: File load canceled: /Applications/Autodesk/AutoCAD 2025/AutoCAD 2025.app/Contents/Resources/Support/@en@/acad2025.LSP
+Command: 
+Command: 
+Command: 
+Command: _.AUDIT
+Fix any errors detected? [Yes/No] <N>: _No
+                                       
+                                       
+                              
+Pass 1 100     objects audited
+                              
+Pass 2 100     objects audited
+                                      
+ 10      Blocks audited
+                                  
+Total errors found 0 fixed 0
+Erased 0 objects
+Command: (princ (strcat "\nQA_INSUNITS=" (itoa (getvar "INSUNITS"))))
+QA_INSUNITS=6"\nQA_INSUNITS=6"
+Command: (foreach qaLayer '("SOURCE_BUILDING_REF" "SOURCE_CENTERLINES" "NON_GROUND_PATH_REF" "OVERHEAD_ROOF_REF" "BUILDING_CLOSED_REF") (princ "\nQA_LAYER=") (prin1 (tblsearch "LAYER" qaLayer)))
+QA_LAYER=((0 . "LAYER") (2 . "SOURCE_BUILDING_REF") (70 . 1) (62 . -8) (6 . "Continuous"))
+QA_LAYER=((0 . "LAYER") (2 . "SOURCE_CENTERLINES") (70 . 1) (62 . -8) (6 . "Continuous"))
+QA_LAYER=((0 . "LAYER") (2 . "NON_GROUND_PATH_REF") (70 . 1) (62 . -8) (6 . "Continuous"))
+QA_LAYER=((0 . "LAYER") (2 . "OVERHEAD_ROOF_REF") (70 . 1) (62 . -8) (6 . "Continuous"))
+QA_LAYER=((0 . "LAYER") (2 . "BUILDING_CLOSED_REF") (70 . 1) (62 . -7) (6 . "Continuous"))((0 . "LAYER") (2 . "BUILDING_CLOSED_REF") (70 . 1) (62 . -7) (6 . "Continuous"))
+Command: (foreach qaLayer '("ROAD_ENVELOPE_EST" "BUILDING_CLOSED_REF" "BUILDING_OUTLINE") (princ "\nQA_RINGS=") (prin1 (list qaLayer (sslength (ssget "_X" (list '(0 . "LWPOLYLINE") (cons 8 qaLayer)))))))
+QA_RINGS=("ROAD_ENVELOPE_EST" 491)
+QA_RINGS=("BUILDING_CLOSED_REF" 1796)
+QA_RINGS=("BUILDING_OUTLINE" 1905)("BUILDING_OUTLINE" 1905)
+Command: (setq qaLines (ssget "_X" '((0 . "LWPOLYLINE") (8 . "ROAD_ENVELOPE_EST,BUILDING_CLOSED_REF"))))
+<Selection set: 8>
+Command: (setq qaN 0 qaOpen 0)
+0
+Command: (while (< qaN (sslength qaLines)) (setq qaEnt (entget (ssname qaLines qaN))) (if (= 0 (logand 1 (cdr (assoc 70 qaEnt)))) (setq qaOpen (1+ qaOpen))) (setq qaN (1+ qaN)))
+2287
+Command: (princ (strcat "\nQA_OPEN_OUTLINES=" (itoa qaOpen)))
+QA_OPEN_OUTLINES=0"\nQA_OPEN_OUTLINES=0"
+Command: (setq qaSet (ssget "_X" '((0 . "VIEWPORT"))))
+<Selection set: a>
+Command: (setq qaN 0)
+0
+Command: (while (< qaN (sslength qaSet)) (setq qaEnt (entget (ssname qaSet qaN))) (princ "\nQA_VIEWPORT=") (prin1 (list (assoc 410 qaEnt) (assoc 40 qaEnt) (assoc 41 qaEnt) (assoc 45 qaEnt))) (setq qaN (1+ qaN)))
+QA_VIEWPORT=((410 . "A00_INDEX") (40 . 760.0) (41 . 220.0) (45 . 2200.0))
+QA_VIEWPORT=((410 . "A00_INDEX") (40 . 925.1) (41 . 653.4) (45 . 653.4))
+QA_VIEWPORT=((410 . "A01_CLEAN") (40 . 760.0) (41 . 510.0) (45 . 510.0))
+QA_VIEWPORT=((410 . "A01_CLEAN") (40 . 925.1) (41 . 653.4) (45 . 653.4))
+QA_VIEWPORT=((410 . "A01_REVIEW") (40 . 760.0) (41 . 510.0) (45 . 510.0))
+QA_VIEWPORT=((410 . "A01_REVIEW") (40 . 925.1) (41 . 653.4) (45 . 653.4))
+QA_VIEWPORT=((410 . "A02_CLEAN") (40 . 760.0) (41 . 510.0) (45 . 510.0))
+QA_VIEWPORT=((410 . "A02_CLEAN") (40 . 925.1) (41 . 653.4) (45 . 653.4))
+QA_VIEWPORT=((410 . "A02_REVIEW") (40 . 760.0) (41 . 510.0) (45 . 510.0))
+QA_VIEWPORT=((410 . "A02_REVIEW") (40 . 925.1) (41 . 653.4) (45 . 653.4))
+QA_VIEWPORT=((410 . "A03_CLEAN") (40 . 760.0) (41 . 510.0) (45 . 510.0))
+QA_VIEWPORT=((410 . "A03_CLEAN") (40 . 925.1) (41 . 653.4) (45 . 653.4))
+QA_VIEWPORT=((410 . "A03_REVIEW") (40 . 760.0) (41 . 510.0) (45 . 510.0))
+QA_VIEWPORT=((410 . "A03_REVIEW") (40 . 925.1) (41 . 653.4) (45 . 653.4))
+QA_VIEWPORT=((410 . "A04_CLEAN") (40 . 760.0) (41 . 510.0) (45 . 510.0))
+QA_VIEWPORT=((410 . "A04_CLEAN") (40 . 925.1) (41 . 653.4) (45 . 653.4))
+QA_VIEWPORT=((410 . "A04_REVIEW") (40 . 760.0) (41 . 510.0) (45 . 510.0))
+QA_VIEWPORT=((410 . "A04_REVIEW") (40 . 925.1) (41 . 653.4) (45 . 653.4))
+QA_VIEWPORT=((410 . "A05_CLEAN") (40 . 760.0) (41 . 510.0) (45 . 510.0))
+QA_VIEWPORT=((410 . "A05_CLEAN") (40 . 925.1) (41 . 653.4) (45 . 653.4))
+QA_VIEWPORT=((410 . "A05_REVIEW") (40 . 760.0) (41 . 510.0) (45 . 510.0))
+QA_VIEWPORT=((410 . "A05_REVIEW") (40 . 925.1) (41 . 653.4) (45 . 653.4))
+QA_VIEWPORT=((410 . "A06_CLEAN") (40 . 760.0) (41 . 510.0) (45 . 510.0))
+QA_VIEWPORT=((410 . "A06_CLEAN") (40 . 925.1) (41 . 653.4) (45 . 653.4))
+QA_VIEWPORT=((410 . "A06_REVIEW") (40 . 760.0) (41 . 510.0) (45 . 510.0))
+QA_VIEWPORT=((410 . "A06_REVIEW") (40 . 925.1) (41 . 653.4) (45 . 653.4))
+QA_VIEWPORT=((410 . "A07_CLEAN") (40 . 760.0) (41 . 510.0) (45 . 510.0))
+QA_VIEWPORT=((410 . "A07_CLEAN") (40 . 925.1) (41 . 653.4) (45 . 653.4))
+QA_VIEWPORT=((410 . "A07_REVIEW") (40 . 760.0) (41 . 510.0) (45 . 510.0))
+QA_VIEWPORT=((410 . "A07_REVIEW") (40 . 925.1) (41 . 653.4) (45 . 653.4))
+QA_VIEWPORT=((410 . "A08_CLEAN") (40 . 760.0) (41 . 510.0) (45 . 510.0))
+QA_VIEWPORT=((410 . "A08_CLEAN") (40 . 925.1) (41 . 653.4) (45 . 653.4))
+QA_VIEWPORT=((410 . "A08_REVIEW") (40 . 760.0) (41 . 510.0) (45 . 510.0))
+QA_VIEWPORT=((410 . "A08_REVIEW") (40 . 925.1) (41 . 653.4) (45 . 653.4))
+QA_VIEWPORT=((410 . "A09_CLEAN") (40 . 760.0) (41 . 510.0) (45 . 510.0))
+QA_VIEWPORT=((410 . "A09_CLEAN") (40 . 925.1) (41 . 653.4) (45 . 653.4))
+QA_VIEWPORT=((410 . "A09_REVIEW") (40 . 760.0) (41 . 510.0) (45 . 510.0))
+QA_VIEWPORT=((410 . "A09_REVIEW") (40 . 925.1) (41 . 653.4) (45 . 653.4))
+QA_VIEWPORT=((410 . "A10_CLEAN") (40 . 760.0) (41 . 510.0) (45 . 510.0))
+QA_VIEWPORT=((410 . "A10_CLEAN") (40 . 925.1) (41 . 653.4) (45 . 653.4))
+QA_VIEWPORT=((410 . "A10_REVIEW") (40 . 760.0) (41 . 510.0) (45 . 510.0))
+QA_VIEWPORT=((410 . "A10_REVIEW") (40 . 925.1) (41 . 653.4) (45 . 653.4))42
+Command: _.QUIT
+_Yes
+Really want to discard all changes to drawing? <N> _YesLogFilePath has been restored to ''.

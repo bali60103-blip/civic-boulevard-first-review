@@ -1,0 +1,32 @@
+A01-A03｜OSM 為主・路寬檔為輔｜2026-10-01
+
+原 OSM 中心線的坐標、轉折、連接為基準，不以路寬橫斷線中心搬移或修正。已比對原 OSM XML 與保留中心線，偏移及長度差見 validation.json。
+寬度優先序：OSM width → roadsize2 輔助 → 無法判定則留待核中線。沒有用道路等級預設寬度。
+路寬檔只補寬度，同一相連道路鏈沿來源寬度插值，端部延用最近寬度；在 OSM 中心線左右各展開一半，不沿路寬檔偏心平移。
+部分長道路距最近路寬線超過 1 km；這些連續展寬是推定，不是沿線實測，亦未逐處街景核實。
+ROAD_ENVELOPE_EST：閉合的估計道路走廊。WIDTH_EXTENDED_INFERENCE：超出上一版局部支持區的推定部分。WIDTH_PENDING_AXIS：沒有可靠寬度的原中線。
+OSM_ORIGINAL_GROUND_AXIS：未移动的原 OSM 地面中心線參考層，預設關閉。ground_centerlines.json 保留 OSM way ID 對應。
+ROAD_BUILDING_CONFLICT：道路面與建物重疊待核。本版不移動或裁剪 OSM 建物以掩蓋衝突；地下建物只在地面預覽排除，來源檔不改。
+原道路沒有因配不到路寬而刪除，只是不生成寬度面。橋梁、隧道、其他樓層及步行路徑另存參考，不當作地面車道展寬。
+人行道、分隔島尚未分離；路寬檔的實際／計畫寬度定義未明，結果不能當實測路緣。
+模型 EPSG:3826、公尺 1:1；GeoJSON WGS84。沒有覆蓋前版圖面。
+© OpenStreetMap contributors / ODbL 1.0 / https://www.openstreetmap.org/copyright
+核對航照：臺北市都市發展局 Ortho_2025 快取；拍攝／測量時點未驗證，水印保留。
+
+{
+  "scope": "A01-A03",
+  "width_source_priority": "OSM width, then roadsize2",
+  "source_strokes_used": 165,
+  "osm_width_segments": 5,
+  "restored_chains": 85,
+  "restored_length_m": 13652.852428188571,
+  "closed_road_rings": 40,
+  "duplicate_road_edges_m": 0.0,
+  "dxf_audit_errors": 0,
+  "extended_area_vs_local_version_m2": 106020.9864613497,
+  "building_overlap_m2": 7055.427833794466,
+  "maximum_station_distance_m": 1082.2129601062784,
+  "geometry_valid": true,
+  "original_axis_hausdorff_distance_m": 5.820766091346741e-11,
+  "original_axis_length_difference_m": 3.2741809263825417e-11
+}

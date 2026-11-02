@@ -1,0 +1,27 @@
+已完成：A01–A03 全段原始節點分段、原中線幾何守恆驗證、橫向量寬多線歧義篩查。
+尚未完成：逐段車道數、中心線代表哪側、路寬兩端語義與正式外框重建。
+中心線是開放線，不強制閉合；正式道路外框仍須閉合。原 CAD 未覆寫。
+{
+  "phase": "全段自動分段／來源配對篩查；非逐段人工車道驗收",
+  "source_chains": 303,
+  "empty_or_point_only_chains": [],
+  "segments": 923,
+  "category_counts": {
+    "匝道／服務通道待分": 371,
+    "巷道／支線待分": 170,
+    "支線候選": 232,
+    "幹道候選": 150
+  },
+  "width_strokes": 226,
+  "width_status": {
+    "MULTIPLE_AXES_OR_FOLDED_CHAIN": 46,
+    "SINGLE_AXIS_BOUNDARY_UNVERIFIED": 169,
+    "NO_CLEAR_AXIS": 11
+  },
+  "segments_in_uncertain_zones": 268,
+  "axis_hausdorff_change_m": 5.820766091346741e-11,
+  "axis_length_change_m": 4.001776687800884e-11,
+  "confirmed_lane_counts": 0,
+  "confirmed_adopted_widths": 0,
+  "note": "原始 OSM 標籤、上輪目估與本輪確認欄位分開；沒有以猜測補車道數，也沒有移動原中線。"
+}
